@@ -55,3 +55,49 @@ header {
     max-width: 600px;
     color: aliceblue;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: rgb(65, 1, 65);
+    text-align: center;
+}
+
+.games-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem 0;
+    scrollbar-width: thin;
+    scrollbar-color: #ff5722 #333;
+}
+
+.games-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.games-container::-webkit-scrollbar-track {
+    background: #333;
+    border-radius: 10px;
+}
+
+.games-container::-webkit-scrollbar-thumb {
+    background-color: #ff5722;
+    border-radius: 10px;
+}
+
+.game-card {
+    flex: 0 0 auto;
+    width: 200px;
+    background-color: #202020;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s , box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
