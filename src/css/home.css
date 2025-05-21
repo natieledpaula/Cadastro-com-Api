@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: #1a73e8;
-    color: white;
+    background-color: rgba(65, 1, 65, 0.863);
+    color: aliceblue;
     padding: 1rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -31,4 +31,27 @@ header {
 
 .cabecalho a:hover {
     opacity: 0.8;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/fundo.png') center/cover no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: blueviolet;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    max-width: 600px;
+    color: aliceblue;
 }
